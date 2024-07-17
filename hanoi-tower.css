@@ -8,26 +8,41 @@
   background-color: red;
   width: 250px;
   height: 250px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 100px;
+  bottom: 100px; */
+  /* relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 100px;
   right: 100px;
   top: 100px;
   bottom: 100px;
+  /* Order */
   z-index: 3;
-
 }
 
 .green {
   background-color: green;
   width: 200px;
   height: 200px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 125px;
+  right: 125px;
+  top: 125px;
+  bottom: 125px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 125px;
   right: 125px;
   top: 125px;
   bottom: 125px;
+  /* Order */
   z-index: 4;
 }
 
@@ -35,12 +50,20 @@
   background-color: blue;
   width: 150px;
   height: 150px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 150px;
+  right: 150px;
+  top: 150px;
+  bottom: 150px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 150px;
   right: 150px;
   top: 150px;
   bottom: 150px;
+  /* Order */
   z-index: 5;
 }
 
@@ -48,12 +71,20 @@
   background-color: yellow;
   width: 100px;
   height: 100px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 175px;
+  right: 175px;
+  top: 175px;
+  bottom: 175px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 175px;
   right: 175px;
   top: 175px;
   bottom: 175px;
+  /* Order */
   z-index: 6;
 }
 
@@ -61,12 +92,20 @@
   background-color: black;
   width: 50px;
   height: 50px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 200px;
+  right: 200px;
+  top: 200px;
+  bottom: 200px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 200px;
   right: 200px;
   top: 200px;
   bottom: 200px;
+  /* Order */
   z-index: 7;
 }
 
@@ -74,12 +113,20 @@
   background-color: purple;
   width: 300px;
   height: 300px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 75px;
+  right: 75px;
+  top: 75px;
+  bottom: 75px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 75px;
   right: 75px;
   top: 75px;
   bottom: 75px;
+  /* Order */
   z-index: 2;
 }
 
@@ -87,12 +134,20 @@
   background-color: darkblue;
   width: 350px;
   height: 350px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 50px;
+  right: 50px;
+  top: 50px;
+  bottom: 50px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 50px;
   right: 50px;
   top: 50px;
   bottom: 50px;
+  /* Order */
   z-index: 1;
 }
 
@@ -100,11 +155,19 @@
   background-color: grey;
   width: 400px;
   height: 400px;
-  /* Position: absolute */
-  position: absolute;
+  /* ----------------------------------------------------absolute---------------------------------------- */
+  /* position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 25px;
+  bottom: 25px; */
+  /* Position: relative */
+  /* ------------------------------------------------------fixed------------------------------------------ */
+  position: fixed;
   left: 25px;
   right: 25px;
   top: 25px;
   bottom: 25px;
+  /* Order */
   z-index: 0;
 }
